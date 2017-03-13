@@ -17,7 +17,7 @@
                BlueprintIdentifier = "DE0596681E75B93A003B07A1"
                BuildableName = "MusicApp.app"
                BlueprintName = "MusicApp"
-               ReferencedContainer = "container:MusicApp.xcodeproj">
+               ReferencedContainer = "container:PlayStopMusic.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "DE05967C1E75B93B003B07A1"
                BuildableName = "MusicAppTests.xctest"
                BlueprintName = "MusicAppTests"
-               ReferencedContainer = "container:MusicApp.xcodeproj">
+               ReferencedContainer = "container:PlayStopMusic.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -45,7 +45,7 @@
                BlueprintIdentifier = "DE0596871E75B93B003B07A1"
                BuildableName = "MusicAppUITests.xctest"
                BlueprintName = "MusicAppUITests"
-               ReferencedContainer = "container:MusicApp.xcodeproj">
+               ReferencedContainer = "container:PlayStopMusic.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,7 +55,7 @@
             BlueprintIdentifier = "DE0596681E75B93A003B07A1"
             BuildableName = "MusicApp.app"
             BlueprintName = "MusicApp"
-            ReferencedContainer = "container:MusicApp.xcodeproj">
+            ReferencedContainer = "container:PlayStopMusic.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -78,7 +78,7 @@
             BlueprintIdentifier = "DE0596681E75B93A003B07A1"
             BuildableName = "MusicApp.app"
             BlueprintName = "MusicApp"
-            ReferencedContainer = "container:MusicApp.xcodeproj">
+            ReferencedContainer = "container:PlayStopMusic.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -97,7 +97,7 @@
             BlueprintIdentifier = "DE0596681E75B93A003B07A1"
             BuildableName = "MusicApp.app"
             BlueprintName = "MusicApp"
-            ReferencedContainer = "container:MusicApp.xcodeproj">
+            ReferencedContainer = "container:PlayStopMusic.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

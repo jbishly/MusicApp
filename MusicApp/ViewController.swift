@@ -35,7 +35,7 @@ class ViewController: UIViewController
         audioPlayer.play()
     }
     @IBAction func ClickedStop(_ sender: Any)
-    	{
+    {
         // Stop
         audioPlayer.stop()
     }

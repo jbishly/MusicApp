@@ -213,7 +213,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DE0596641E75B93A003B07A1 /* Build configuration list for PBXProject "MusicApp" */;
+			buildConfigurationList = DE0596641E75B93A003B07A1 /* Build configuration list for PBXProject "PlayStopMusic" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -497,7 +497,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DE0596641E75B93A003B07A1 /* Build configuration list for PBXProject "MusicApp" */ = {
+		DE0596641E75B93A003B07A1 /* Build configuration list for PBXProject "PlayStopMusic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DE05968F1E75B93B003B07A1 /* Debug */,
