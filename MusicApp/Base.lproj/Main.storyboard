@@ -1,26 +1,82 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MusicApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Headphonesoundwave.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="zWo-Ey-ehY">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="249"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="zWo-Ey-ehY" secondAttribute="height" multiplier="375:292" id="0Np-AA-S4C"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ovw-U7-JOu">
+                                <rect key="frame" x="0.0" y="249" width="320" height="121"/>
+                                <color key="backgroundColor" red="0.35621875549768417" green="0.68109547892640365" blue="0.72374919041450769" alpha="0.79915823063380287" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="121" id="4JB-jN-mY1"/>
+                                </constraints>
+                                <state key="normal" title="Play">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Play">
+                                            <attributes>
+                                                <font key="NSFont" metaFont="system" size="15"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="ClickedPlay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I39-Ie-gjA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="il4-vj-iuZ">
+                                <rect key="frame" x="0.0" y="370" width="320" height="121"/>
+                                <color key="backgroundColor" red="0.91108727331606221" green="0.35634503941052076" blue="0.64552885320453113" alpha="0.79915823063380287" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Stop"/>
+                                <connections>
+                                    <action selector="ClickedStop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d5M-82-rxc"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ovw-U7-JOu" firstAttribute="top" secondItem="zWo-Ey-ehY" secondAttribute="bottom" id="2vf-71-ne7"/>
+                            <constraint firstAttribute="trailing" secondItem="il4-vj-iuZ" secondAttribute="trailing" id="3Yq-L0-euF"/>
+                            <constraint firstItem="il4-vj-iuZ" firstAttribute="top" secondItem="ovw-U7-JOu" secondAttribute="bottom" id="G8h-1i-Idx"/>
+                            <constraint firstItem="zWo-Ey-ehY" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Tzh-Iv-Gg7"/>
+                            <constraint firstAttribute="trailing" secondItem="ovw-U7-JOu" secondAttribute="trailing" id="b8l-Ow-fw6"/>
+                            <constraint firstItem="il4-vj-iuZ" firstAttribute="height" secondItem="ovw-U7-JOu" secondAttribute="height" id="g6d-RR-e03"/>
+                            <constraint firstItem="ovw-U7-JOu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="lft-lK-0Mv"/>
+                            <constraint firstAttribute="trailing" secondItem="zWo-Ey-ehY" secondAttribute="trailing" id="oyH-pi-MnH"/>
+                            <constraint firstItem="zWo-Ey-ehY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="t5h-Jx-3W3"/>
+                            <constraint firstItem="il4-vj-iuZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="vyQ-20-PBq"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="480.80000000000001" y="139.880059970015"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Headphonesoundwave.jpg" width="1300" height="1300"/>
+    </resources>
 </document>

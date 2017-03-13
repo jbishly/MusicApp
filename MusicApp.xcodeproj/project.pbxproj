@@ -14,6 +14,8 @@
 		DE0596771E75B93B003B07A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE0596751E75B93B003B07A1 /* LaunchScreen.storyboard */; };
 		DE0596821E75B93B003B07A1 /* MusicAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0596811E75B93B003B07A1 /* MusicAppTests.swift */; };
 		DE05968D1E75B93B003B07A1 /* MusicAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE05968C1E75B93B003B07A1 /* MusicAppUITests.swift */; };
+		DE05969F1E75C32D003B07A1 /* Headphonesoundwave.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE05969E1E75C32D003B07A1 /* Headphonesoundwave.jpg */; };
+		DE0596A11E75C4C8003B07A1 /* Ween - Joppa Road.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DE0596A01E75C4C8003B07A1 /* Ween - Joppa Road.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		DE0596881E75B93B003B07A1 /* MusicAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE05968C1E75B93B003B07A1 /* MusicAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicAppUITests.swift; sourceTree = "<group>"; };
 		DE05968E1E75B93B003B07A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE05969E1E75C32D003B07A1 /* Headphonesoundwave.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Headphonesoundwave.jpg; path = ../Headphonesoundwave.jpg; sourceTree = "<group>"; };
+		DE0596A01E75C4C8003B07A1 /* Ween - Joppa Road.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ween - Joppa Road.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		DE05966B1E75B93B003B07A1 /* MusicApp */ = {
 			isa = PBXGroup;
 			children = (
+				DE0596A01E75C4C8003B07A1 /* Ween - Joppa Road.mp3 */,
+				DE05969E1E75C32D003B07A1 /* Headphonesoundwave.jpg */,
 				DE05966C1E75B93B003B07A1 /* AppDelegate.swift */,
 				DE05966E1E75B93B003B07A1 /* ViewController.swift */,
 				DE0596701E75B93B003B07A1 /* Main.storyboard */,
@@ -232,6 +238,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE0596A11E75C4C8003B07A1 /* Ween - Joppa Road.mp3 in Resources */,
+				DE05969F1E75C32D003B07A1 /* Headphonesoundwave.jpg in Resources */,
 				DE0596771E75B93B003B07A1 /* LaunchScreen.storyboard in Resources */,
 				DE0596741E75B93B003B07A1 /* Assets.xcassets in Resources */,
 				DE0596721E75B93B003B07A1 /* Main.storyboard in Resources */,
@@ -505,6 +513,7 @@
 				DE0596931E75B93B003B07A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE0596941E75B93B003B07A1 /* Build configuration list for PBXNativeTarget "MusicAppTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +522,7 @@
 				DE0596961E75B93B003B07A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE0596971E75B93B003B07A1 /* Build configuration list for PBXNativeTarget "MusicAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +531,7 @@
 				DE0596991E75B93B003B07A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

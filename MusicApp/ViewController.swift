@@ -7,12 +7,37 @@
 //
 
 import UIKit
+import AVFoundation
 
-class ViewController: UIViewController {
+class ViewController: UIViewController
+    {
+    var audioPlayer: AVAudioPlayer!
 
     override func viewDidLoad() {
+
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        // Get file path
+        let filePath = Bundle.main.path(forResource: "Ween - Joppa Road", ofType: "mp3")
+        let audioPath = URL(fileURLWithPath: filePath!)
+        
+        do {
+            // Initialize audio player
+            audioPlayer = try AVAudioPlayer(contentsOf: audioPath)
+            audioPlayer.prepareToPlay()
+        } catch {
+            print("Error")
+        }
+    }
+    @IBAction func ClickedPlay(_ sender: Any)
+    {
+        // Play
+        audioPlayer.play()
+    }
+    @IBAction func ClickedStop(_ sender: Any)
+    	{
+        // Stop
+        audioPlayer.stop()
     }
 
     override func didReceiveMemoryWarning() {
